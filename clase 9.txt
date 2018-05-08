@@ -1,0 +1,112 @@
+Tener el pdf para estar al dia
+Por la clase pasada: 
+unidad numero 4, declaracion de variables, primeros tres tipos de datos en java. Pantallaso general, barrida sobre
+modulo inicial de java, 
+java SE8 fundamentals.pdf buscar. recomendado por jojo?
+unidad 4 del fundamentals. 
+Data in a cart
+temas de 4: 
+definicion de variable- descripcion de datos, 4 tipos de datos. string, como se concatenan como asignamos variables
+en cada unidad hay ejercicos con resultados para practicar. 
+Modificar valores, operar con numeros, cual es la precedencia en terminos de operaciones matematicas y concatenaciones de tipo dato string
+Definicion de variable como tipo de dato. ESTA EN EL PDF
+
+Vimos algunas cosas de string
+unidad 5
+uso de la expresion boolean
+tsuuutooo tsumaranai
+D:
+proposito de arrays, sensor de string, o array de tipo entero
+acceder a array
+para que for
+iterar array utilizando for
+en java se pone a prueba una condicion o expresion booleana a apartir de un if, o algo parecido. Utilizando el bloque else cuando no se
+cumpla la condicion
+variable boolean 
+array
+se inicializa con llaves
+String [] items = {pedo1, pedo2, pedo3}
+una manera de definir arrays
+tipo de dato [] nombrevariable = {1, 2, 3, 4};
+la memoria va a guardar en bloques en la memoria el tipo de datos que yo haya guardado en ese array. Esos pedacitos consecutivos definidos 
+pueden ser accedidos con un indice. 
+Como se define un tamaño. Los espacios que va a utilizar son en funcion del espacio que haya definido dentro de la llave
+Entonces:
+Array es un contenedor indexado que mantiene un conjunto de valores. Cada item es un elemento, al cual se accede por su indice. 
+Array a traves de un metodo ppuede informar sobre su tamaño. En el bucle for puede recorrer array
+bucles
+bloques de repeticion que se ejecutan. hasta que condicion se cumpla o sea x cantidad de veces.
+size
+va a tomar variable size, primer momento
+
+package holi;
+
+public class clases2 {
+
+	public static void main(String[] args) {
+		int[] sizes = { 4, 8, 12, 201 };
+		for (int sixe : sizes) {
+			if (sixe > 16)
+				break;
+			System.out.println("size: " + sixe + ".");
+
+		}
+	}
+}
+esto me va a printear el size que corresponda a operacion. Los va a imprimir a todos, 
+vamos a volver sobre booleanos en algun momento. Con un blo 
+for simplificado
+for (tipodedato nombrevar:nombresarray) {
+nombredevariable
+los datos que voy a tomar de la varaible y sus operaciones
+}
+Si yo opero con algo, con por cada elemento voy a poder imprimir o trabajar con cada variable. tengo una variable de nombres, strings
+":" es asignacion de contenido de elemento dentro de la varaible
+Palabra piola, permite cortar el ciclo de manera abrupta, o cuando se cumple una condicion. 
+Si 
+
+package holi;
+
+import java.util.Scanner;
+
+public class clases {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("la cantidad de nombres");
+		String[] nombreamigos = new String[sc.nextInt()];
+		sc.nextLine();
+
+		for (int i = 0; i < nombreamigos.length; i++) {
+			System.out.println("ingrese el nombre del amigo");
+
+			nombreamigos[i] = sc.nextLine();
+			
+
+		}
+		for (String nombreamigo: nombreamigos) {
+			System.out.println(nombreamigo);
+		}
+
+	}
+
+}
+un ejercicio, gracias cris :3
+manipulando y formateando datos del programa
+String + .concat permite juntar dos paalbras
+esto tiene que ver con el espacio de memoria. algo con un garbage collector
+no intende
+La vriable anterior se deja de usar y java te lo borra solo porque es copado. 
+En cambio cuando usamos el operador "+" podemos usar el mismo espacio de memoria. Defino mystrign, y le agrego un + y otrostring 
+String method calls with primitive return values. 
+No se a que quiere llegar
+el tampoco
+String method calls with object return values. trim() saca los esapcios. .toLowerCase baja a minuscula
+Entonces va a realizar trim, sacar los espacios 
+java API documentation. 
+Webpages, lists of classes in the api 
+documentacion de los metodos que tiene una clase, los receptores, los campos. Permite navegar facilmente entre
+el arbol qe maneja la java estandar edition
+Se puede buscar
+
