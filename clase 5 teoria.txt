@@ -1,0 +1,11 @@
+Herencia que basicamente permite definir nuevs clases a partir de otras ya existentes. herencia multiple no esta permitida en java, en otros lenguajes si. 
+public class sybkCkase extends(!!!) SuperClase (){
+---
+}
+
+
+
+heredar hace que tenga disponible todo lo que tenia de la otra clase. 
+Otro de los temas a tratar en poo qe se tienen que cumplir, es el polimorfismo. Por el nombre, muchas formas. En relacion a la herencia es donde se instala el polimorfismo. 
+Ejemplo. Tanto alumno como profesor son personas. Por herencia y por polimorfismo pueden adquirir muchas formas, y por herencia, transitividad y esta propiedad de polimorfismo va 
+a poder almacenar un parametro, siempre que responda a la clase heredada. 
